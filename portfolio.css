@@ -1,0 +1,43 @@
+body {
+	background-color: lightgray;
+	color: black;
+}
+
+h1 {
+	color: white;
+	text-align: right;
+	color: red;
+}
+
+h2 {
+	color: blue;
+	color: black;
+	text-align: center;
+}
+
+h3 {
+	color: red;
+	color: white;
+	border-style: ridge;
+}
+
+nav .active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+nav li {
+	display: inline;
+}
+
+section {
+	display: flex;
+}
+
+aside {
+	flex: 1
+}
+
+article {
+	flex: 4
+}
